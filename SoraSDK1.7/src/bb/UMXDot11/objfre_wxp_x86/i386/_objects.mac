@@ -1,0 +1,23 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\main.obj \
+ $(OBJ_PATH)\$O\dot11atx.obj \
+ $(OBJ_PATH)\$O\dot11arx.obj \
+ $(OBJ_PATH)\$O\dot11btx.obj \
+ $(OBJ_PATH)\$O\dot11brx.obj \
+ $(OBJ_PATH)\$O\dot11btx_fb.obj \
+ $(OBJ_PATH)\$O\dot11brx_fb.obj \
+
+
+_RES_FILE=$(OBJ_PATH)\$O\umxdot11.res
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=c:\sorasdk1.7\src\bb\umxdot11
+OBJ_PATH=c:\sorasdk1.7\src\bb\umxdot11
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0
